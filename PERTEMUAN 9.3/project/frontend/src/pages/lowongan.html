@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lowongan - MAGD3TIKOM</title>
+    <link rel="icon" type="image/png" href="../assets/img/logo/AMIKOM_LOGO.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Inria+Serif:wght@700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/lowongan.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg py-1" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="../assets/img/logo/AMIKOM_LOGO.png" alt="MAGD3TIKOM Logo"
+                    style="height: 40px; margin-right: 10px;">
+                <div>
+                    <div class="logo-text">MAGD3TIKOM</div>
+                    <small class="text-muted">UNIVERSITAS AMIKOM YOGYAKARTA</small>
+                </div>
+            </a>
+            <div class="ms-auto d-flex gap-5 align-items-center nav-menu">
+                <a class="nav-link-custom" href="../../public/index.html">Home</a>
+                <a class="nav-link-custom" href="#posisi">Posisi</a>
+                <a class="nav-link-custom" href="../pages/lowongan.html">Lowongan</a>
+                <a class="nav-link-custom login-link" href="../pages/form_login.html">Login</a>
+                <a class="btn btn-create" id="createBtn" href="../pages/form_signup.html">Create Account</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="main">
+        <div class="container">
+            <h2>Temukan Tempat Magang Favoritmu disini!</h2>
+            <p class="fs-5">
+                Halaman ini merupakan layanan resmi MAGD3TIKOM Universitas AMIKOM Yogyakarta yang
+                dirancang untuk mempertemukan mahasiswa D3 Teknik Informatika dengan pemberi kesempatan
+                magang secara langsung dan terverifikasi.
+            </p>
+
+            <div class="row justify-content-center g-4 ms-lg-5">
+                <!-- Stat 1 -->
+                <div class="col-12 col-md-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <!-- Icon -->
+                        <i class="bi bi-info-circle icon-circle"></i>
+
+                        <!-- Text -->
+                        <div>
+                            <h5 class="mb-1">5 Jumlah Lowongan</h5>
+                            <small class="text-light">Jumlah lowongan yang tersedia</small>
+                        </div>
+                    </div>
+                </div>
+                <!-- Stat 2 -->
+                <div class="col-12 col-md-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <!-- Icon -->
+                        <i class="bi bi-building icon-circle"></i>
+
+                        <!-- Text -->
+                        <div>
+                            <h5 class="mb-1">6 Perusahaan</h5>
+                            <small class="text-light">Jumlah lowongan yang tersedia</small>
+                        </div>
+                    </div>
+                </div>
+                <!-- Stat 3 -->
+                <div class="col-12 col-md-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <!-- Icon -->
+                        <i class="bi bi-person-circle icon-circle"></i>
+
+                        <!-- Text -->
+                        <div>
+                            <h5 class="mb-1">76 Peserta</h5>
+                            <small class="text-light">Jumlah lowongan yang tersedia</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="vacancy" id="job-vacancy">
+        <div class="container py-4">
+            <!-- Search Bar -->
+            <div class="row mb-3">
+                <div class="col-12">
+                    <div class="d-flex align-items-center border  px-3 search-bar">
+                        <input type="text" class="form-control border-0 bg-transparent" placeholder="Search.." />
+                        <i class="bi bi-search"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filter -->
+            <div class="row mb-3">
+                <div class="col-12 fw-bold fs-4 mt-3">Lokasi</div>
+                <div class="col-md-6 mb-2">
+                    <label class="filter-label">Provinsi</label>
+                    <select class="form-select">
+                        <option>Semua</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-2">
+                    <label class="filter-label">Kabupaten</label>
+                    <select class="form-select">
+                        <option>Semua</option>
+                    </select>
+                </div>
+                <div class="col-12 mt-2">
+                    <button class="btn btn-purple w-100">Tampilkan</button>
+                </div>
+            </div>
+
+            <!-- Job List -->
+            <h5 class="fw-bold mt-4 mb-3">6 Pekerjaan Ditemukan</h5>
+
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="job-card bg-white shadow-sm">
+                        <div class="date-badge">
+                            <i class="bi bi-bookmark-fill"></i> 1 day ago
+                        </div>
+
+                        <!-- Gambar + Nama Perusahaan (disusun horizontal) -->
+                        <div class="d-flex align-items-center gap-3 mb-3 mt-5">
+                            <img src="../../src/assets/img/lowongan/CodeWafe.png" class="icon" alt="code" />
+                            <div>
+                                <h2 class="mb-0">CodeWave</h2>
+                                <div class="company fs-6">PT. CodeWave Solutions</div>
+                            </div>
+                        </div>
+
+                        <!-- Detail Lowongan -->
+                        <div class="mb-2">
+                            <span class="label fs-5">Posisi Lowongan :</span><br />
+                            UI/UX Designer
+                        </div>
+                        <div class="mb-2">
+                            <span class="label fs-5">Durasi Magang :</span><br />
+                            3 Bulan Magang
+                        </div>
+                        <div class="mb-2">
+                            <span class="label fs-5">Lokasi :</span><br />
+                            Depok, Sleman, Yogyakarta
+                        </div>
+
+                        <button class="btn btn-apply mt-3">Apply Now</button>
+                    </div>
+                </div>
+                <!-- Card 1 End-->
+
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="job-card text-white shadow-sm" style="background-color: #750075;">
+                        <div class="date-badge bg-white">
+                            <i class="bi bi-bookmark-fill"></i> 1 day ago
+                        </div>
+
+                        <!-- Gambar + Nama Perusahaan (disusun horizontal) -->
+                        <div class="d-flex align-items-center gap-3 mb-3 mt-5">
+                            <img src="../../src/assets/img/lowongan/DataNest.png" class="icon" alt="code" />
+                            <div>
+                                <h2 class="mb-0 text-white">DataNest</h2>
+                                <div class="company fs-6 text-white">PT. DataNest Technologies</div>
+                            </div>
+                        </div>
+
+                        <!-- Detail Lowongan -->
+                        <div class="mb-2">
+                            <span class="label fs-5">Posisi Lowongan :</span><br />
+                            Database Administrator
+                        </div>
+                        <div class="mb-2">
+                            <span class="label fs-5">Durasi Magang :</span><br />
+                            4 Bulan Magang
+                        </div>
+                        <div class="mb-2">
+                            <span class="label fs-5">Lokasi :</span><br />
+                            Umbulharjo, Kota Yogyakarta, Yogyakarta
+                        </div>
+
+                        <button class="btn btn-outline-light mt-3">Apply Now</button>
+                    </div>
+                </div>
+                <!-- Card 2 End -->
+
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="job-card bg-white shadow-sm">
+                        <div class="date-badge">
+                            <i class="bi bi-bookmark-fill"></i> 1 day ago
+                        </div>
+
+                        <!-- Gambar + Nama Perusahaan (disusun horizontal) -->
+                        <div class="d-flex align-items-center gap-3 mb-3 mt-5">
+                            <img src="../../src/assets/img/lowongan/CodeCode.png" class="icon" alt="code" />
+                            <div>
+                                <h2 class="mb-0">CodeCode</h2>
+                                <div class="company fs-6">PT. CodeCode</div>
+                            </div>
+                        </div>
+
+                        <!-- Detail Lowongan -->
+                        <div class="mb-2">
+                            <span class="label fs-5">Posisi Lowongan :</span><br />
+                            Web Designer
+                        </div>
+                        <div class="mb-2">
+                            <span class="label fs-5">Durasi Magang :</span><br />
+                            2 Bulan Magang
+                        </div>
+                        <div class="mb-2">
+                            <span class="label fs-5">Lokasi :</span><br />
+                            Prambanan, Sleman, Yogyakarta
+                        </div>
+
+                        <button class="btn btn-apply mt-3">Apply Now</button>
+                    </div>
+                </div>
+                <!-- Card 3 End -->
+
+                <!-- Card 4 -->
+                <div class="col-md-4">
+                    <div class="job-card text-white shadow-sm" style="background-color: #750075;">
+                        <div class="date-badge bg-white">
+                            <i class="bi bi-bookmark-fill"></i> 1 day ago
+                        </div>
+
+                        <!-- Gambar + Nama Perusahaan (disusun horizontal) -->
+                        <div class="d-flex align-items-center gap-3 mb-3 mt-5">
+                            <img src="../../src/assets/img/lowongan/DataBox.png" class="icon" alt="code" />
+                            <div>
+                                <h2 class="mb-0 text-white">DataBox</h2>
+                                <div class="company fs-6 text-white">PT. Techno DataBox</div>
+                            </div>
+                        </div>
+
+                        <!-- Detail Lowongan -->
+                        <div class="mb-2">
+                            <span class="label fs-5">Posisi Lowongan :</span><br />
+                            Database Administrator
+                        </div>
+                        <div class="mb-2">
+                            <span class="label fs-5">Durasi Magang :</span><br />
+                            4 Bulan Magang
+                        </div>
+                        <div class="mb-2">
+                            <span class="label fs-5">Lokasi :</span><br />
+                            Umbulharjo, Kota Yogyakarta, Yogyakarta
+                        </div>
+
+                        <button class="btn btn-outline-light mt-3">Apply Now</button>
+                    </div>
+                </div>
+                <!-- Card 4 End -->
+
+                <!-- Card 5 -->
+                <div class="col-md-4">
+                    <div class="job-card bg-white shadow-sm">
+                        <div class="date-badge">
+                            <i class="bi bi-bookmark-fill"></i> 1 day ago
+                        </div>
+
+                        <!-- Gambar + Nama Perusahaan (disusun horizontal) -->
+                        <div class="d-flex align-items-center gap-3 mb-3 mt-5">
+                            <img src="../../src/assets/img/lowongan/CodePro.png" class="icon" alt="code" />
+                            <div>
+                                <h2 class="mb-0">CodePro</h2>
+                                <div class="company fs-6">PT. CodePro Infomation</div>
+                            </div>
+                        </div>
+
+                        <!-- Detail Lowongan -->
+                        <div class="mb-2">
+                            <span class="label fs-5">Posisi Lowongan :</span><br />
+                            Mobile App Developer
+                        </div>
+                        <div class="mb-2">
+                            <span class="label fs-5">Durasi Magang :</span><br />
+                            3 Bulan Magang
+                        </div>
+                        <div class="mb-2">
+                            <span class="label fs-5">Lokasi :</span><br />
+                            Sewon, Bantul, Yogyakarta
+                        </div>
+
+                        <button class="btn btn-apply mt-3">Apply Now</button>
+                    </div>
+                </div>
+                <!-- Card 5 End -->
+
+                <!-- Card 6 -->
+                <div class="col-md-4">
+                    <div class="job-card text-white shadow-sm" style="background-color: #750075;">
+                        <div class="date-badge bg-white">
+                            <i class="bi bi-bookmark-fill"></i> 1 day ago
+                        </div>
+
+                        <!-- Gambar + Nama Perusahaan (disusun horizontal) -->
+                        <div class="d-flex align-items-center gap-3 mb-3 mt-5">
+                            <img src="../../src/assets/img/lowongan/SecretData.png" class="icon" alt="code" />
+                            <div>
+                                <h2 class="mb-0 text-white">SecretData</h2>
+                                <div class="company fs-6 text-white">PT. SecretData Tech</div>
+                            </div>
+                        </div>
+
+                        <!-- Detail Lowongan -->
+                        <div class="mb-2">
+                            <span class="label fs-5">Posisi Lowongan :</span><br />
+                            Database Administrator
+                        </div>
+                        <div class="mb-2">
+                            <span class="label fs-5">Durasi Magang :</span><br />
+                            4 Bulan Magang
+                        </div>
+                        <div class="mb-2">
+                            <span class="label fs-5">Lokasi :</span><br />
+                            Jetis, Kota Yogyakarta, Yogyakarta
+                        </div>
+
+                        <button class="btn btn-outline-light mt-3">Apply Now</button>
+                    </div>
+                </div>
+                <!-- Card 6 End -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <ul class="nav mb-5">
+            <li class="nav-item"><a href="#" class="nav-link text-dark fw-semibold">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-dark fw-semibold">Posisi</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-dark fw-semibold">Lowongan</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-dark fw-semibold">Login</a></li>
+        </ul>
+        <small class="d-block mb-5">© <strong>MAGD3TIKOM</strong>, 2025 – All Rights Reserved</small>
+
+        <!-- Scroll to Top Button -->
+        <div class="scroll-top-btn mt-5">
+            <i class="bi bi-arrow-up"></i>
+        </div>
+    </footer>
+    <!-- Footer Section End-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="../js/apps.js"></script>
+</body>
+
+</html>

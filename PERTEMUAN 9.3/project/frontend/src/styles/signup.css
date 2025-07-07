@@ -1,0 +1,149 @@
+/* ========================== Overall ========================== */
+body {
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    max-width: 900px;
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(117, 0, 117, 0.2);
+}
+/* ========================== Overall End ========================== */
+
+/* ========================== Left Side ========================== */
+.card-left {
+    background-color: #F8F2F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.card-left img {
+    max-width: 120px;
+    margin-bottom: 1rem;
+}
+
+.main-text {
+    font-size: 2.3rem;
+    font-family: 'Inria Serif', serif;
+    text-shadow: 1px 2px 4px rgba(51, 51, 51, 0.6);
+}
+
+.tagline {
+    font-size: 1rem;
+    font-family: 'Inria Serif', serif;
+    text-shadow: 0px 1px 1px rgba(51, 51, 51, 0.6);
+    text-align: left;
+    color: rgb(25, 25, 25);
+}
+
+.logo-img {
+    max-width: 150px;
+    height: auto;
+    filter: drop-shadow(1px 3px 1px rgba(0, 0, 0, 0.2));
+}
+/* ========================== Left Side End ========================== */
+
+/* ========================== Right Side ========================== */
+.card-right {
+    background-color: #750075;
+    color: #fff;
+    padding: 2rem;
+}
+
+.form-label {
+    color: #fff;
+    text-shadow: 1px 2.5px 2px rgba(51, 51, 51, 0.6);
+}
+
+.shadow-text {
+    text-shadow: 1px 2.5px 2px rgba(51, 51, 51, 0.6);
+}
+
+.form-control {
+    border-radius: 0.5rem;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 1px 3px 5px rgba(76, 76, 76, 0.6) !important;
+}
+
+.btn-home {
+    box-shadow: 1px 3px 5px rgba(76, 76, 76, 0.6) !important;
+    transition: all 0.3s ease;
+}
+
+.btn-home:hover {
+    background-color: #750075;
+    border: 1px solid #750075;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.btn-home:hover svg {
+    color: #fff !important;
+}
+
+.btn-login,
+.btn-create {
+    border-radius: 0.5rem;
+    font-weight: 600;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 1px 3px 5px rgba(76, 76, 76, 0.6) !important;
+}
+
+.btn-login {
+    background-color: #fff;
+    color: #750075;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #750075;
+    color: rgb(255, 255, 255);
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.btn-create {
+    background-color: #fff;
+    color: #750075;
+}
+
+.divider {
+    text-align: center;
+    margin: 1rem 0;
+    color: #ccc;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    background-color: #ccc;
+    vertical-align: middle;
+    margin: 0 0.5rem;
+}
+
+a.forgot-link {
+    font-size: 0.85rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+a.forgot-link:hover {
+    text-decoration: underline;
+}
+/* ========================== Right Side End ========================== */

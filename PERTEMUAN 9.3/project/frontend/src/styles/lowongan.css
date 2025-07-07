@@ -1,0 +1,127 @@
+.hero-section {
+    background-color: #750075;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-section h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1rem;
+    margin: 0 auto 40px;
+}
+
+.icon-circle {
+    background-color: white;
+    color: #750075;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-item h5 {
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.stat-item small {
+    font-size: 0.875rem;
+    color: #eee;
+}
+
+.search-bar {
+    border: 1.5px solid #750075 !important;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+.form-select {
+    border: 1.5px solid #750075 !important;
+}
+
+.filter-label {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.btn-purple {
+    background-color: #750075;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-purple:hover {
+    background-color: white;
+    color: #750075;
+    border: 1.5px solid #750075;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.job-card {
+    border-radius: 16px;
+    padding: 20px;
+    position: relative;
+    min-height: 100%;
+}
+
+.job-card .date-badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #f0d7ff;
+    color: #750075;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.job-card h2 {
+    font-weight: bold;
+    color: #800080;
+}
+
+.company {
+    font-weight: 600;
+    color: #555;
+}
+
+.job-card .label {
+    font-weight: bold;
+}
+
+.btn-apply {
+    border: 1px solid #750075;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #750075;
+}
+
+.btn-apply:hover {
+    background-color: #750075;
+    color: white;
+}
+
+.btn-white {
+    background-color: white;
+    color: #750075;
+    border: none;
+}

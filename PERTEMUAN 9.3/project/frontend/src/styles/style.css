@@ -1,0 +1,294 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #F8F2F8;
+}
+
+/**========================= Navbar =========================**/
+.navbar {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.navbar-brand img {
+  height: 45px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-family: 'Inria Serif', serif;
+  margin-bottom: -1rem;
+}
+
+.navbar .text-muted {
+  font-size: 0.75rem;
+  font-family: 'Inria Serif', serif;
+  line-height: 1;
+}
+
+.nav-link-custom {
+  color: #212529;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.login-link {
+  color: #750075 !important;
+}
+
+.btn-create {
+  background-color: #750075;
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-create:hover {
+  background-color: #5c005c;
+  color: white;
+}
+
+/** === Scrolled Navbar === */
+.navbar.scrolled {
+  background-color: #750075 !important;
+}
+
+.navbar.scrolled .logo-text,
+.navbar.scrolled .text-muted {
+  color: white !important;
+}
+
+.navbar.scrolled .navbar-brand img {
+  background-color: white;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+
+.navbar.scrolled .nav-link-custom,
+.navbar.scrolled .login-link {
+  color: white !important;
+}
+
+.navbar.scrolled .btn-create {
+  background-color: white !important;
+  color: #750075 !important;
+  border: 1.5px solid white;
+}
+/**========================= Navbar End =========================**/
+
+
+/**========================= Main Section =========================**/
+.main-section {
+  height: 877px !important;
+}
+
+.main-text {
+  font-size: 4.5rem;
+  font-family: 'Inria Serif', serif;
+  text-shadow: 1px 2px 5px rgba(51, 51, 51, 0.6);
+}
+
+.tagline {
+  font-size: 1.9rem;
+  font-family: 'Inria Serif', serif;
+  text-shadow: 1px 2px 5px rgba(51, 51, 51, 0.6);
+}
+
+.hero-title {
+  font-size: 3.75rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.hero-sub {
+  font-size: 1.5rem;
+}
+
+.fc-b input {
+  border: 2px solid #750075;
+  border-radius: 6px;
+}
+
+.btn-create {
+  background-color: #750075;
+  color: white;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.btn-create:hover {
+  background-color: #5c005c;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/**========================= Main Section =========================**/
+.cdp {
+  border: 0;
+}
+
+.card-posisi {
+  transition: all 0.3s ease;
+}
+
+.card-posisi:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.bg-light-purple {
+  background-color: #f3e5f5;
+}
+
+.text-purple {
+  color: #750075;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+}
+/**========================= Main Section End =========================**/
+
+/**========================= Tahapan Section =========================**/
+.step-card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.step-icon {
+  width: 36px;
+  height: 36px;
+  background-color: #e6c9f0;
+  color: #750075;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 767.98px) {
+  .icon-left {
+    margin-bottom: 1rem;
+  }
+}
+/**========================= Tahapan Section End =========================**/
+
+/**========================= Lowongan Section =========================**/
+.job-card {
+  border-radius: 16px;
+  padding: 24px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.job-icon {
+  width: 155px;
+  height: 155px;
+  margin-bottom: 20px;
+}
+
+.job-title {
+  font-weight: 700;
+  color: #750075;
+}
+
+.company-name {
+  font-weight: 600;
+}
+
+.btn-outline-purple {
+  border: 1px solid #750075;
+  color: #750075;
+}
+
+.btn-outline-purple:hover {
+  background-color: #750075;
+  color: white;
+}
+
+.badge-date {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #f0d7ff;
+  color: #750075;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+/**========================= Lowongan Section End =========================**/
+
+/**========================= CTA Section =========================**/
+
+.cta-section {
+  text-align: center;
+  padding: 50px 20px 30px;
+}
+
+.cta-section input {
+  max-width: 350px;
+  border: 2px solid #750075;
+  border-radius: 6px;
+}
+
+.cta-section .btn-purple {
+  background-color: #750075;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.cta-section .btn-purple:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+/**========================= CTA Section End =========================**/
+
+/**========================= Footer Section =========================**/
+.footer {
+  text-align: center;
+  padding: 150px 20px 20px;
+}
+
+.footer .nav {
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer small {
+  color: #222;
+}
+
+.scroll-top-btn {
+  width: 40px;
+  height: 40px;
+  background-color: #d5a8e8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto 0;
+}
+
+.scroll-top-btn i {
+  color: #5c1676;
+  font-size: 18px;
+}
+/**========================= Footer Section End =========================**/
