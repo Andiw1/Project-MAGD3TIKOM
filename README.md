@@ -53,5 +53,4 @@ Berikut contoh tampilan dari aplikasi yang dikembangkan:
 ## 🔧 Cara Menjalankan Proyek
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/namamu/proyek-pweb.git
-   cd proyek-pweb
+   (https://github.com/Andiw1/Project-MAGD3TIKOM.git)
